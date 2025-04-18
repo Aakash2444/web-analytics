@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4A90E2;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero {
+    max-width: 800px;
+    margin: auto;
+}
+
+.catalog, .about, .partners {
+    padding: 20px;
+    text-align: center;
+}
+
+.catalog {
+    background: #f9f9f9;
+}
+
+.catalog-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
